@@ -1,0 +1,129 @@
+body{
+  background-repeat: repeat;
+  background: rgb(216,224,222); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(216,224,222,1) 0%, rgba(174,191,188,1) 22%, rgba(153,175,171,1) 33%, rgba(142,166,162,1) 50%, rgba(130,157,152,1) 67%, rgba(78,92,90,1) 82%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  font-family: Arial;
+  margin-left: 12%;
+}
+h1{
+  color: #7A3F32;
+  margin-left: -85px;
+
+}
+ul{
+  margin:0 px;
+  padding:0px;
+  list-style: none;
+}
+ul li{
+  float: left;
+  width: 250px;
+  height: 40px;
+  background-color:gray ;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 1px;
+  margin-left: 3px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li a:hover
+{
+  background-color: #B45642;
+}
+ul li ul li{
+  display: none;
+}
+ul li:hover ul li{
+  display: block;
+}
+#Cabecera{
+
+  width: 83%;
+  height: 250px;
+  border: 3px solid black;
+  margin: 5px 100px 10px 22px;
+
+  background-size: 100% 100%;
+
+  animation: Cabecera 10s infinite;
+
+}
+@keyframes Cabecera{
+  0%, 30% {
+    background-image: url(Terminal.JPG);
+  }
+
+
+  35%, 65%{
+    background-image: url(Terminal-de-Transportes-de-Manizales.jpg);
+  }
+
+  70%, 100%{
+    background-image: url(TerminalTransportesPereira.jpg);
+  }
+}
+
+
+#Derecha{
+  background-color: #D6D2D2;
+  float: left;
+  margin-top: 10px;
+  min-height: 500px;
+  padding: 10px;
+  width: 15%;
+  height: 1200px;
+  display: inline-block;
+}
+#Izquierda{
+
+  background-color: #D6D2D2;
+  float: left;
+  margin-left: 1px;
+  margin-top: 10px;
+  min-height: 500px;
+  padding: 10px;
+  width: 12%;
+  height: 1200px;
+  display: inline-block;
+}
+
+#Pie{
+  background-color:#D6D2D2;
+  clear: both;
+  margin-top: 10px;
+  padding: 10px;
+  width: 85.5%;
+  display: inline-block;
+
+}
+#Centro{
+
+  margin-top: 10px;
+  min-height: 300px;
+  background-color:#D6D2D2;
+  padding: 10px;
+  float: left;
+  width: 55%;
+  height: 1200px;
+  display: inline-block;
+
+}
+h6,h2{
+  color:  #7A3F32;
+}
+details{
+    color:#000;
+}
+details summary{
+color:  #7A3F32;
+}
