@@ -1,0 +1,182 @@
+.Silder{
+  width: 95%;
+  height: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+footer{
+padding-top : 4em;
+  background-color: #000;
+  color: #fff;
+  justify-content: center;
+
+}
+
+img{
+  width: 100%;
+  height: 400px;
+}
+h1{
+  text-align: center;
+  color: blue;
+  font-family: verdana;
+}
+
+.Silder ul{
+  display: flex;
+  padding: 0;
+  animation: cambio 20s infinitive;
+  animation-direction: alternate;
+}
+.Silder li{
+  list-style: none;
+}
+
+@keyframes cambio {
+  0%{ margin-left: 0;}
+  20%{margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -100%;}
+  70%{margin-left: -100%;}
+
+  75%{margin-left: -100%;}
+  100%{margin-left: -100%;}
+
+}
+div.header{
+  text-decoration:none;
+text-decoration-style: none;
+  margin:100px auto;
+	width:100%;
+	height:100px;
+  display: flex;
+  justify-content: center;
+
+}
+div.contenedor{
+  text-decoration-style: none;
+  text-decoration:none;
+  width: 170px;
+	height: 200px;
+	float:left;
+	transition: height 1s;
+
+}
+div#uno{
+	background-color: rgb(22,107,162);
+  border: 1px solid white;
+}
+
+div#dos{
+	background-color: rgb(22,107,162);
+    border: 1px solid white;
+}
+
+div#tres{
+	background-color: rgb(22,107,162);
+    border: 1px solid white;
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+    border: 1px solid white;
+}
+
+div#cinco{
+	background-color: rgb(22,107,162);
+    border: 1px solid white;
+}
+img.icon{
+  display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:30px;
+  height: 30px;
+	padding:20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+-webkit-transition:box-shadow .4s;
+}
+p.texto{
+  text-decoration-style: none;
+  text-decoration:none;
+  font-size: 1.2em;
+	color:#fff;
+	text-align: center;
+  padding-top: 1px;
+  opacity: 0.6;
+  transition: padding-top 1s;
+}
+div.contenedor:hover{
+  height: 215px;
+}
+div.contenedor:hover p.texto{
+  padding-top: 20px;
+  opacity: 1;
+}
+div.contenedor:hover img.icon{
+  -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.7);
+}
+div.Cuerpo{
+  width: 95%;
+  height: auto;
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div.img{
+  width: 30%;
+  height: auto;
+
+  padding: 15px;
+}
+
+div.pie{
+  width: 95%;
+  height: 230px;
+  margin: auto;
+
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+  color: rgb(22,107,162);
+}
+div#contenido_Uno{
+  width: 15%;
+  height: auto;
+  border:1px dashed red;
+  padding: 15px;
+}
+div#Conductores{
+  width: 15%;
+  height: auto;
+  border:1px dashed red;
+  padding: 15px;
+}
+div#Hidrocarburos{
+  width: 15%;
+  height: auto;
+  border:1px dashed red;
+  padding: 15px;
+}
+/* a{
+  margin: 10px;
+} */
+img#redes{
+
+  margin: 10px;
+  white:32px;
+  height: 32px;
+}
+div.redes{
+margin-left: 40%;
+  width: 50px;
+  display: flex;
+}
