@@ -1,0 +1,113 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0px;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;
+    background-size: cover;
+    background-image: url(img\f.jpg) no-repeat center center;
+}
+
+#buscar{
+	border-radius: 6px;
+	height: 2em;
+	float: right;
+	margin-right: 1em;
+	margin-top: 0em;
+	background-color: rgb(228, 233, 246);
+	border: solid 2px rgb(36, 30, 61);
+}
+
+header {
+    width: 100%; padding: 30px 0%;
+		margin: 0px;
+    background: rgb(36, 30, 61);
+}
+
+header h1 {
+    font-family: merienda-one;
+    font-size: 2em;
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		text-shadow: #000000 0.5px 0.5px 0.5px,
+}
+
+header p {
+    font-size: 1.3em;
+		color: white;
+		text-transform: uppercase;
+
+}
+
+header h1, header p {
+    width: 80%; margin:  0px auto;
+    min-width: 800px;
+}
+
+#contenedor {
+    width:  80%; min-width: 800px;
+    margin:  0px auto;
+}
+
+nav {
+    width: 100%; overflow: auto;
+    font-weight: bold;
+		font-size: 24px;
+    margin: 15px 0px;
+}
+
+.contai{
+  float: left;
+  border-radius: 1em;
+  width: 100%;
+}
+
+.col-s{
+  width: 16%;
+  background-color: none;
+	float: left;
+}
+
+
+.button{
+  background-color: inherit;
+  width: 80%;
+  float: left;
+}
+
+.icono{
+  width: 70%;
+  height: 65%;
+}
+
+footer {
+    width: 100%; padding: 30px 0%;
+    background: rgb(36, 30, 61);
+    overflow: auto;
+		color: white;
+		margin: 0;
+}
+
+footer div {
+    width: 80%; margin: 0 auto;
+    min-width: 800px;
+}
+
+footer img {
+    margin-right: 50px;
+    float: left;
+}
+
+footer p {
+    float: left; padding-top: 12px;
+}
