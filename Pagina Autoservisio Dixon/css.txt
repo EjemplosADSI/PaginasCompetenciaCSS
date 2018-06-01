@@ -1,0 +1,72 @@
+  <!--<ul>
+      <li> <img src="imagenes/banner1.jpg" id="banner"></li>
+      <li> <img src="imagenes/banner2.jpg" id="banner"></li>
+      <li> <img src="imagenes/bannerr3.jpg" id="banner"></li>
+    </ul>
+      </div>
+      <br>
+      <br>
+
+        <div class="BarraH">
+          <a href="combustibles.html">Inicio</a> 
+          <a href="combustibles.html">Combustibles</a>
+          <a href="combustibles.html">Lubricantes</a>
+          <a href="combustibles.html">plantas</a>
+          <a href="combustibles.html">Contacto</a>
+
+
+        </div>
+-->
+
+css __________________________________
+.BarraH{
+  width: 100%;
+  height: 60px;
+
+/*border: 1px solid red;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+
+  font: 15px Verdana;
+  text-decoration: none;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: #1757C9;
+  border: 1px solid #1757C9;
+  padding: 10px 20px 10px 20px;
+  transition: background 0.7s, color 0.7s;
+}
+a:hover{
+  background: red;
+  color: #fff;
+}
+
+----------------------------------------
+
+
+
+<footer>
+  <div class="pie">
+    <p>Copyright (c) 2018 Copyright Holder All Rights Reserved.</p>
+
+
+    <p>telefono: 1055-0111-123354</p>
+
+    <p>correodeladmin@gmail.com</p>
+
+    <div class="redes">
+      <a href= "https://www.facebook.com"><img src="icons/facebook.png" id="redes"> </a>
+      <a href= "https://www.instagram.com"><img src="icons/instagram.png" id="redes"></a>
+      <a href= "https://www.twitter.com"><img src="icons/twitter.png" id="redes"></a>
+      <a href= "https://www.Youtube.com"><img src="icons/Youtube.png" id="redes"></a>
+      <a href= "https://www.google-plus.com"><img src="icons/google-plus.png" id="redes"></a>
+      <a href= "https://www.gmail.com"><img src="icons/email.png" id="redes"></a>
+
+
+    </div>
+
+
+</footer>
