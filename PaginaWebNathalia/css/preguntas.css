@@ -1,0 +1,59 @@
+.rt-module-surround3{
+  background-color: rgb(15, 16, 36);
+  width: 40%;
+  padding: 2em;
+  margin: 1em;
+  border: rgb(57, 48, 134) 2px solid;
+  border-radius: 12px;
+  float: left;
+}
+
+.rt-module-surround3 input,textarea{
+  background-color: rgba(244, 252, 254, 0.94);
+  border-radius: 10px;
+  width: 65%;
+  border: solid 1px rgb(190, 218, 162);
+  margin: 1em;
+  padding: 0.5em;
+  width: 90%;
+}
+
+
+option{
+  border-radius: 3px;
+  color: black;
+}
+
+.rt-module-surround3 button{
+  background-color: rgb(46, 94, 139);
+  border: rgb(7, 48, 102) solid 1px;
+  border-radius: 5px;
+  padding: 0.6em;
+}
+
+.rt-module-surround3 label{
+  color: white;
+}
+
+textarea{
+  max-width: 408px;
+  max-height: 147px;
+}
+
+.preguntas{
+  float: right;
+  width: 45%;
+  margin-top: 1em;
+  padding: 1em;
+  text-align: justify;
+  border: 1px solid black;
+}
+.pregunt{
+  color: rgb(0, 6, 26);
+}
+
+.preguntas h1{
+  color: rgb(2, 95, 130);
+  text-align: center;
+  font-weight: bold;
+}

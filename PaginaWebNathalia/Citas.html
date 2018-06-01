@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HOSPITAL</title>
+    <link rel="icon" href="img/2.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/citas.css">
+  </head>
+  <body>
+      <div>
+
+        <header>
+          <input type="search" size="30px" id="buscar" maxlength="50" placeholder="  🔍">
+          <h1>Hospital Santillana</h1> <br>
+          <p>La Mejor Calidad Para Tu Salud</p>
+        </header>
+
+        <div id="contenedor">
+          <nav>
+            <div class="contai">
+               <div class="row">
+                 <div class="col-s">
+                   <a href="home.html"><button type="image" class="button"><img class="icono" src="img/i1.png" alt="">HOME</button></a>
+                 </div>
+                 <div class="col-s">
+                 <a href="citas.html"><button type="image" class="button"><img class="icono" src="img/i4.png" alt="">CITAS</button></a>
+                 </div>
+                 <div class="col-s">
+                   <a href="doctores.html"><button type="image" class="button"><img class="icono" src="img/i2.png" alt="">DOCTORES</button></a>
+                 </div>
+                  <div class="col-s">
+                    <a href="servicios.html"><button type="image" class="button"><img class="icono" src="img/i3.png" alt="">SERVICIOS</button></a>
+                  </div>
+                  <div class="col-s">
+                    <a href="preguntas.html"><button type="image" class="button"><img class="icono" src="img/i5.png" alt="">PREGUNTAS</button></a>
+                  </div>
+                  <div class="col-s">
+                    <a href="contactar.html"><button type="image" class="button"><img class="icono" src="img/i6.png" alt="">CONTACTAR</button></a>
+                  </div>
+                </div>
+              </div>
+          </nav>
+
+          <div class="formularios">
+          <form method="post" class="form" id="frm2">
+          <div class="imgcontainer">
+            <img src="img\3.png" alt="icono" class="avatar">
+          </div>
+
+          <div class="contain">
+            <label for="uname"><b>Username</b></label>
+            <input class="inp" type="Username" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input class="inp" type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit" id="ingreso">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label> <br>
+
+            <input type="radio" name="log" id="Cliente" value="Cliente" checked> <label for="Cliente">Cliente</label>
+            <input type="radio" name="log" id="Doctor" value="Doctor"> <label for="Doctor">Doctor</label>
+            <input type="radio" name="log" id="Enfe" value="Enfe"> <label for="Enfe">Enfermera</label>
+            </div>
+
+          <div  class="contain" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span><a href="#" class="psw">Olvidé mi contraseña...</a></span>
+          </div>
+          </form>
+          </div>
+
+          <div class="formularios">
+          <form id="frm1" target="_parent" method="post" class="form">
+          <fieldset id="f1">
+            <legend>Registrarse</legend>
+
+            <strong><label for="nombre">Nombres:</label></strong>
+            <input class="inp" type="text" size="30" name="nombre" id="nombre"
+            minlength="2" maxlength="30" placeholder="Ingresa tus Nombres"
+            pattern="^[a-zA-Z]+$" title="Solo letas" required >
+            <br><br>
+
+            <strong><label for="documento">Documento:</label></strong>
+            <input class="inp" type="document"  name="documento" id="documento"
+            minlength="10" maxlength="12" placeholder="Ingresa tu documento"
+            title="Solo numeros" required >
+            <br><br>
+
+            <label for="uname"><b>Usuario</b></label>
+            <input class="inp" type="text" placeholder="Ingresa un Usuario" name="uname" required>
+
+            <strong><label for="telefono">Telefono:</label></strong>
+            <input class="inp" type="tel" name="telefono" id="telefono" pattern="[0-9]{3}-[0-9]{7}"
+            list="defaultOperators" value="" placeholder="31x-xxxxxxx" size="12" minlength="10" maxlength="11" required >
+            <br><br>
+
+            <strong><label for="correo">Ingrese su correo</label></strong>
+            <input class="inp" type="email" size="26" minlength="6" maxlength="60" placeholder="usuario@midominio.com"
+            name="correo" id="correo" inputmode="email" title="Ingrese su correo empresarial" required>
+            <br><br>
+
+            <strong><label for="contrasena">Contaseña:</label></strong>
+            <input class="inp" type="password" placeholder="Min 8 caracteres" minlength="8" name="contrasena" id="contrasena" autocomplete="current-password" inputmode="numeric" required> <!--  -->
+            <br><br>
+
+            <input type="image" height="35" width="150" src="img\12.png" alt="login">
+
+          </fieldset>
+          </form>
+          </div>
+
+          <div class="noticias">
+          <h3 class="titulo">¿Como sacar una cita?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p> <br>
+          <h3 class="titulo">Horarios de Atención</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p> <br>
+          <h3 class="titulo">Fallos de las citas</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p> <br>
+          <h3 class="titulo">Ventajas de citas online</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+
+        </div>
+
+      <footer>
+        <div>
+            <a href="http://www.facebook.com"><img src="img/facebook.svg"></a>
+            <a href="http://www.twitter.com"><img src="img/twitter.svg"></a>
+            <a href="http://www.youtube.com"><img src="img/youtube.svg"></a>
+            <p><address>
+              Developer: Dania Nathalia Cahueño <br>
+              Email: dncahueno@misena.edu.co <br>
+              Copyright &copy 2018 Copyright Holder All Rights Reserved.
+            </address> </p>
+        </div>
+      </footer>
+
+    </div>
+
+  </body>
